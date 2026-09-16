@@ -1,0 +1,8 @@
+Day,Focus,Action,Expected impact
+Day 1,Improve intent taxonomy,"Split overlapping operational intents using clearer decision boundaries, especially cancellation vs delay, booking vs seat, and payment/refund vs operational issues.",Reduce systematic intent confusion.
+Day 2,Add conversational-state handling,"Detect acknowledgements, praise, and social messages separately from support requests so messages such as 'Okay. Thanks!' are not treated as operational issues.",Reduce irrelevant retrieval and unnecessary automation.
+Day 3,Improve retrieval,Replace pure TF-IDF nearest-neighbour retrieval with hybrid lexical + semantic retrieval and rerank candidates using intent and issue-specific signals.,Improve evidence relevance for paraphrased and complex complaints.
+Day 4,Handle multi-intent messages,Add multi-intent/issue extraction and prioritize urgent or high-risk issues before generating a response.,Reduce failures on messages containing several simultaneous problems.
+Day 5,Strengthen safety policy,"Use stricter evidence requirements for financial, accessibility, lost/found, cancellation, and rebooking cases and require stronger agreement between routing and evidence signals.",Reduce unsafe automation.
+Day 6,Expand evaluation,"Create a larger stratified evaluation set with separate positive/social, ambiguous, high-risk, and multi-intent slices and add more human review.",Improve confidence in generalization.
+Day 7,End-to-end validation,"Re-run baselines, intent classification, retrieval, response quality, evidence judging, and safety metrics on the new evaluation set.",Measure whether improvements actually increase safe automation rather than only improving one component.

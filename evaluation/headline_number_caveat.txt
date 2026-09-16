@@ -1,0 +1,33 @@
+
+What is misleading about my headline number?
+
+The 81% evidence-judge/human agreement is useful, but it should not
+be interpreted as end-to-end system accuracy.
+
+First, the 100-case evidence review is a manually reviewed subset of
+the 220-case golden evaluation set and was not sampled to represent
+real-world customer-support traffic prevalence.
+
+Second, the human labels themselves represent reviewer judgments about
+whether historical evidence is sufficient; they are not an objective
+ground truth for whether a response would ultimately resolve a
+customer's issue.
+
+Third, the LLM evidence judge is intentionally conservative. It marked
+20% of the reviewed cases as evidence-sufficient, compared with 37%
+for the independent human review. Therefore, the 81% agreement
+reflects agreement with a human review process rather than factual
+accuracy.
+
+Finally, the system's 56.36% intent accuracy and 21.74% automation
+precision on the 220-case evaluation should not be treated as
+production estimates. The golden set was intentionally constructed
+using intent/topic buckets, and the automation classes are imbalanced
+(54 safe-to-auto-handle vs 166 escalation cases). A trivial
+always-escalate policy therefore achieves 100% escalation recall and
+75.45% raw decision accuracy without automating anything.
+
+The results are best interpreted as diagnostic evidence about where
+the current system fails: intent routing and evidence quality are the
+main bottlenecks, while stricter safety gating can reduce unsafe
+automation only by also reducing automation coverage.

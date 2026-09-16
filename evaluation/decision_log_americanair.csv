@@ -1,0 +1,16 @@
+decision,reason
+Selected AmericanAir as the target brand,"It provided a large support corpus with 36,598 support replies and high usable customer-to-support pairing coverage, while avoiding selection based only on raw volume."
+Used customer-to-brand reply pairs rather than isolated tweets,A support intent and its resolution are better represented by the customer message together with the corresponding brand response.
+Used an 80/20 temporal split,Historical evidence should precede evaluation cases; this reduces future-information leakage and better approximates deployment.
+Built a 13-intent taxonomy,The taxonomy groups recurring operational support problems while retaining specialized high-risk categories such as accessibility and lost/found.
+Kept general/social messages as an explicit intent,"The Twitter dataset contains praise, acknowledgements, and conversational messages that do not correspond to operational support intents."
+Used keyword/topic exploration before defining intents,Clustering and topic prevalence were used as exploratory signals rather than treating unsupervised clusters as final business intents.
+Used a trivial always-escalate baseline,It establishes a safety floor and exposes how misleading raw decision accuracy can be under an imbalanced AUTO/ESCALATE distribution.
+Used TF-IDF retrieval as the simple retrieval baseline,It provides a reproducible lexical retrieval baseline before adding intent-aware routing.
+Restricted intent-aware retrieval to the predicted intent,"The system should prefer historical examples from the detected support category, but this also makes retrieval dependent on classifier quality."
+Required both intent confidence and retrieval similarity for automation,"A confident classifier alone is insufficient, and a strong lexical match alone can still be irrelevant to the customer's actual situation."
+Escalated high-risk intents deterministically,"Accessibility, lost/found, financial/refund, cancellation, and rebooking cases can require case-specific handling and therefore need stricter safety controls."
+Added an evidence-sufficiency judge,"Retrieval similarity is only a proxy for whether historical evidence can safely support a response, so evidence quality needs a separate evaluation."
+Used an independent 100-case human evidence review,"The earlier evidence labels were coupled to automation decisions, so an independent review was created to avoid circular evaluation."
+Used checkpointed batched LLM evaluation,Batching reduces API calls and checkpointing prevents loss of completed evaluation results if an API limit is reached.
+Did not use raw decision accuracy as the headline metric,"The golden set contains 54 AUTO-safe and 166 ESCALATE cases, so an always-escalate system achieves 75.45% raw accuracy without automating anything."

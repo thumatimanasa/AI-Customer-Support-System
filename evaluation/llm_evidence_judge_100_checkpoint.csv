@@ -1,0 +1,101 @@
+eval_id,evidence_sufficient,confidence,reason
+1,False,5,"The evidence concerns lost property, seat availability, and missed connections, not an unexpected schedule change or check-in for an earlier flight."
+2,False,5,The evidence does not explain compensation eligibility or address being denied the flight paid for; it only mentions possible vouchers and general gate assistance.
+3,False,5,"The evidence discusses using a voucher for an upgrade and generic first-class experiences, but not an agent-caused loss of an upgraded seat or an appropriate resolution."
+4,True,4,One example directly concerns a problem with in-flight entertainment and supports advising the customer to notify a crew member.
+5,False,5,"The evidence does not provide the current flight status, expected arrival in Indianapolis, or guidance on whether the customer should remain at the airport."
+7,False,4,"The evidence mentions an account holder with multiple accounts and directs them to customer service, but it does not establish whether an individual may have two AAdvantage accounts."
+8,False,5,"The evidence concerns waiting on the aircraft and delays, but does not address a missed takeoff window or rebooking options."
+9,False,5,"The evidence concerns waits for boarding, gates, and baggage, not the customer's specific request for wheelchair assistance from the gate to baggage claim."
+11,False,4,"The evidence discusses 777 aircraft operations and general celebratory comments, but does not meaningfully address or support a response to the customer's specific J-seat comment."
+12,False,5,"The evidence addresses a reservation already canceled, a delay update, and website issues, but not advance notification of a possible future cancellation."
+15,False,4,"The evidence acknowledges similar carry-on sizing frustration but provides no policy, explanation, or resolution for the disputed bag measurement."
+16,False,5,The evidence discusses eligibility and upgrade types but does not explain why the customer cannot request a 500-mile upgrade or how to fix the issue.
+19,False,5,"The evidence supports requesting a record locator to investigate lost seats, but does not address whether or when seat and priority-boarding fees will be refunded."
+20,False,5,"The evidence concerns flight cancellation, generic assistance, and a bag-related DM, but does not address the customer's bag-rule complaint."
+21,False,5,"The evidence only offers generic patience or assistance and does not address urgent wheelchair access, the broken ankle, or the imminent departure."
+23,False,4,"The evidence concerns missed connections and possible rebooking, but does not support a response to this specific successful rebooking and thank-you message."
+25,True,4,A closely matching case involving a gate crew absent for about 20 minutes supports apologizing and advising that the team should arrive shortly.
+27,True,4,The evidence directly addresses being moved to the back of the aircraft and supports offering help with a seat change or explaining that an equipment change may be involved.
+28,False,5,The retrieved examples are unrelated to deplaning and repeated delays and provide no flight-status information or resolution.
+31,False,5,"Although one example involves a missing confirmation email, the suggested record-locator process does not help a customer who never received or recorded the booking reference."
+32,False,5,"The evidence only contains generic assurances and does not address the delayed flight, missed connection, rebooking, meals, or lodging."
+33,False,4,The evidence discusses forms and unrelated fee or lost-item issues but does not explain how to obtain a bag-fee receipt without the required ticket number.
+34,False,4,"The evidence provides generic refund-request or status guidance but does not address the specific delayed refund involving cancelled flights, lost luggage, and two airlines."
+37,False,5,"The evidence does not address being unchecked in, loss of a paid seat upgrade, or possible compensation; it only suggests contacting support about a checked bag."
+39,True,4,"One example closely matches the customer's ESA seating, lack-of-space, and rude-flight-attendant concerns and supports an apologetic follow-up about the originally assigned seat."
+43,True,4,"The evidence directly supports acknowledging and positively responding to a customer thanking American for refunding a ticket, although the specific disruption differs."
+49,True,5,The evidence directly addresses delayed or malfunctioning mobile boarding passes and supports asking for the record locator to investigate urgently.
+50,False,5,"The evidence is generic or unrelated and provides no information about the reported $1,100 in charges or how to investigate or dispute them."
+52,False,5,"The evidence concerns specific delays, cancellations, and rebooking but does not answer when the customer will be notified or when to make alternate arrangements."
+54,False,5,"The evidence concerns malfunctioning entertainment systems and unrelated seat options, not the customer's request for newer television episodes."
+56,False,5,"The evidence discusses delays and whether a flight will operate, but does not address cancellation fees or rebooking with another airline."
+58,True,5,The evidence directly addresses damaged luggage and provides a relevant next step to file a baggage claim.
+59,True,5,The evidence supports a suitable positive response to praise about something seen on an American Airlines flight.
+61,False,5,"The evidence concerns flight delays and operational issues, not rude or unprofessional gate staff or the passenger's boarding dispute."
+62,False,5,The evidence does not address the complaint about unequal treatment of elite and non-elite passengers or paid versus complimentary benefits.
+66,False,5,The evidence only explains what a record locator is and does not address passengers being separated or seat assignments being changed.
+71,False,5,"The evidence acknowledges baggage delays but provides no information about refunds, compensation, or consideration for the delayed bags."
+72,False,5,"The evidence does not address an allegedly unauthorized cancellation, conflicting rules, lack of notification, or the customer's requested resolution."
+73,False,5,"The evidence is generic and does not address the missing bags, missed connection, pregnancy-related seating separation, or specific rebooking options."
+76,False,4,The evidence concerns cancellation and rebooking complaints but does not address the fog-related safety decision or lack of communication to passengers.
+77,False,5,"The evidence concerns missed connections, overweight fees, or filing a baggage claim, but does not indicate whether this customer's luggage will arrive today."
+82,False,5,"The evidence is about flight departures, baggage delays, and boarding, not Canada routes, pricing, or AAdvantage Platinum benefits."
+83,False,5,"The evidence contains only generic reactions to customer dissatisfaction and does not address the reported baggage, PreCheck, TSA, or boarding-zone problems."
+85,False,5,"The evidence discusses gate-checking bags and unrelated delays, not the rationale or policy for the order of group boarding."
+92,False,5,The evidence addresses general delays and an inbound aircraft but does not explain when the airline knew there was no pilot.
+97,False,5,"The evidence does not address the customer's specific SEA-DFW-AUS itinerary, connection feasibility, or arrival options."
+100,False,5,"The evidence mentions cancellations and crew disruptions but provides no information about involuntary refunds, rebooking, or responsibility for getting home."
+101,False,4,The evidence only suggests contacting support for a review and does not explain how to cancel an unused return segment or whether any refund or credit applies.
+106,False,4,"One example also involves a hydraulic pump failure, but it does not provide current flight status or a concrete response to this customer's maintenance and delay complaint."
+108,False,5,"The evidence concerns low fares, staff conduct, and a generic delay response, not a cancellation shortly before boarding or available assistance."
+109,True,4,"The evidence supports apologizing for the delay and requesting flight details to obtain an update, which addresses the customer's immediate situation."
+110,False,5,The retrieved examples are generic confirmations and do not address checking in separately on phones or clarify the customer's underlying issue.
+111,False,5,The evidence mentions Wi-Fi generally but does not address the customer's specific point about card and Wi-Fi availability or the requested investment decision.
+116,False,5,The evidence only supports a generic apology for poor service and provides no information about why the customer was routed to DAY.
+117,True,5,"The examples directly address repeated delays and support apologizing, checking the flight status, and requesting the flight number."
+118,False,5,The evidence does not establish whether the flight will be canceled or explain whether the customer would need to pay a higher fare.
+120,False,5,"The evidence does not address delayed baggage, reimbursement for necessary clothing and shoes, or the customer's failed callback."
+121,False,5,"The evidence only suggests moving the conversation to direct messages and does not address the mechanical safety concern or the demand for 250,000 miles."
+123,False,5,The retrieved examples do not address how to confirm whether a booking succeeded when no email was received and no card charge appeared.
+124,True,5,The evidence closely matches an uncertain hour-and-a-half delay and supports apologizing and requesting the flight number to check for more information.
+125,False,5,The evidence concerns bag fees and gate-checking generally but does not address the customer's specific concern or provide enough information for a safe response.
+126,False,5,"The evidence only shows generic customer-relations escalation and refund processing, without addressing the disputed first-class downgrade or the partial refund."
+127,True,4,The evidence directly supports acknowledging that a rebooking issue was resolved and that the customer can be congratulated on the successful outcome.
+130,False,5,The evidence only confirms receipt of a direct message or requests generic flight details; it does not address the lost-and-found issue or vendor responsibility.
+134,False,5,"The evidence acknowledges delays and refreshments generally but does not explain this flight's four-hour delay, notification failure, fuel-pump issue, or compensation."
+136,False,5,"The retrieved evidence is unrelated to firearm-marked baggage, regulatory compliance, or the customer's safety allegation."
+141,False,5,"The evidence does not address the $50 gate fee, the employee's advice, or whether a refund or adjustment is appropriate."
+144,False,4,"The evidence provides a departure estimate for another flight and redirects Wi-Fi issues, but does not establish this flight's landing time or Wi-Fi availability."
+147,True,4,The evidence directly concerns flight segments and Gold status and supports a useful congratulatory response about progressing toward elite status.
+152,False,5,"The evidence explains how to view account flight history, not how to access fare rules or cancellation and change fees for a ticketed reservation."
+153,True,4,The evidence directly addresses rebooking-line delays and supports offering rebooking help through a direct message with the record locator.
+154,False,5,"The evidence does not address seats being separated, the personal-item charge, or how the gate staff handled the complaint."
+155,False,5,"The retrieved examples concern flight delays and boarding, not delayed baggage or unreliable lost-bag tracking."
+160,False,5,"The evidence provides only generic apologies and does not address rebooking charges, cancelled return flights, or refund eligibility."
+161,False,5,The evidence contains generic waiting responses but no flight-specific status or substantive answer to the customer's complaint.
+163,True,3,"A retrieved example directly concerns an incorrect or unsuitable seat assignment and supports asking the crew to look for alternate seating, though it does not address the purchased aisle seat or compensation."
+169,False,5,The evidence does not address the combined delayed-flight and missing-baggage situation or the customer's request for compensation.
+173,False,5,"Although similar examples explain delays, none provides information about the specific AA4340 delay, so its cause or departure time cannot be safely inferred."
+178,False,5,"The evidence discusses entertainment feedback but does not address an aircraft swap, an in-flight entertainment failure, or the resulting delay."
+179,True,5,The evidence contains nearly identical acknowledgments and supports a simple 'You're welcome' response.
+181,False,5,"The evidence mentions missed connections and rebooking, but does not address this delay, the failed rescheduling assistance, or compensation."
+183,False,5,The evidence only contains general operational-delay responses and does not address the customer's potential missed connection or rebooking.
+186,False,4,The evidence provides a contact for general elite-status issues but does not address blank employee recognition cards or the specific loyalty complaint.
+187,False,5,"The evidence is about holiday travel generally and does not address an unannounced schedule or connection change, direct-flight expectations, or a refund."
+188,False,5,"All retrieved evidence concerns damaged or ruined baggage, not delays, a missed connection, or rebooking."
+189,False,4,The evidence discusses paid family seating but does not address adding a lap child or the specific booking and escalation problem.
+194,False,5,The evidence acknowledges a flight without seatback screens but provides no information about when domestic aircraft will have them.
+195,False,5,"The evidence does not address disability assistance, airport transportation, or the alleged staff conduct."
+196,False,5,The evidence does not answer whether check-in is possible for a next-day flight under a separate record locator.
+199,False,5,"The evidence does not address transferring or combining miles, the $360 fee, or options for pooling miles for family travel."
+200,False,5,"The evidence discusses upgrades on award tickets and purchasing upgrades, but not whether previously earned upgrades remain usable after losing Platinum status."
+202,False,5,"The evidence contains only generic dissatisfaction responses and does not address the $50 gate-check fee, its cause, or a refund request."
+203,True,4,The first example directly concerns being stuck on the tarmac waiting for a gate and supports an acknowledgment that the aircraft is being moved to a gate.
+206,True,3,"The evidence directly addresses unavailable overhead space and supports requesting the record locator for internal review, though it does not address the aircraft age or seat-space complaint."
+207,True,5,The evidence directly matches an Access Denied website problem and provides a relevant troubleshooting step: clear the cache and try another browser.
+209,True,5,The evidence directly concerns American West heritage aircraft and supports an appropriate acknowledgment of the customer's avgeek observation.
+215,False,5,The evidence does not address a lost item or provide any lost-and-found retrieval guidance for the specified flight and bag.
+217,False,5,"This involves a canceled flight, medical equipment, and a carry-on issue, but the evidence provides no adequate guidance for the medical or accessibility concerns."
+218,False,4,"The evidence addresses reclining seats and extra legroom but does not adequately address the narrow seats, missing IFE, or the laptop safety concern as a whole."
+219,False,5,The evidence mentions WiFi pricing and internal review but does not address the customer's complaint about extremely slow WiFi speed or provide a useful resolution.
